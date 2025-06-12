@@ -1,0 +1,156 @@
+{
+  "name": "Amandeep Bhatti",
+  "contact": {
+    "address": "51 Elmira Street, Hicksville, NY 11801",
+    "phone": "2109297204",
+    "email": "aman.bhatti13@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/amandeep-singh-bhatti-23072322/",
+    "github": "github.com/automateAll",
+    "leetcode": "https://leetcode.com/u/amanviny13/"
+  },
+  "summary": "Senior Software Engineer with 12 years of experience in the software industry, including 5 years focused on backend development, automation, and scalable system design. Proven expertise in building micro services, optimizing performance, and applying engineering best practices across distributed systems. Proficient with AWS, DevOps pipelines, and skilled in problem-solving through 200+ LeetCode problems covering Data Structures and Algorithms (DSA).",
+  "skills": {
+    "Languages": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "Bash"
+    ],
+    "Frameworks & Tools": [
+      "Spring Boot",
+      "Docker",
+      "Git",
+      "JUnit",
+      "Selenium"
+    ],
+    "Cloud & DevOps": [
+      "AWS (EC2, S3, Lambda)",
+      "GCP (BigQuery, Looker)",
+      "Jenkins",
+      "CI/CD"
+    ],
+    "Messaging & Streaming": [
+      "Kafka",
+      "ActiveMQ",
+      "Event-driven architecture"
+    ],
+    "Backend & APIs": [
+      "Microservices",
+      "gRPC",
+      "REST",
+      "Open Telemetry"
+    ],
+    "Design & Architecture": [
+      "HLD/LLD",
+      "Sequence Diagrams",
+      "Domain-Driven Design",
+      "API Documentation",
+      "technical design documentation"
+    ],
+    "Monitoring": [
+      "Prometheus",
+      "Grafana",
+      "Micrometer"
+    ],
+    "Databases": [
+      "SQL (PostgreSQL, MySQL)",
+      "NoSQL"
+    ],
+    "Methodologies": [
+      "Agile",
+      "JIRA",
+      "Service Now"
+    ],
+    "Operating Systems": [
+      "Linux (Ubuntu, CentOS)",
+      "Windows"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Online Table Reservation System",
+      "date": "May 2025",
+      "description": "Designed and implemented a scalable microservices-based reservation system for restaurants using Spring Boot & AngularJS. Deployed backend micro services across three separate EC2 instances to distribute load and improve scalability. Hosted the Angular frontend on an NGINX web server for efficient static content delivery. Used service discovery (Eureka), centralized configuration (Spring Cloud Config), and OAuth 2.0 for secure inter-service communication. Integrated a Python-based AI micro service using the Groq LLM for natural language table reservations via chat-based UI. Developed REST and gRPC endpoints with complete API documentation and exposed AI features via HTTP client for frontend integration. Implemented event-driven architecture using Apache Kafka to produce messages and consume between micro services.",
+      "tech_stack": [
+        "Spring Boot",
+        "AngularJS",
+        "Docker",
+        "EC2",
+        "NGINX",
+        "Eureka",
+        "Config Server",
+        "gRPC",
+        "REST",
+        "OAuth 2.0",
+        "Python",
+        "Kafka"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Walmart Global Tech",
+      "title": "Senior Software Engineer",
+      "duration": "Nov 2024 - Current",
+      "location": "Bentonville, AR",
+      "responsibilities": [
+        "Led end-to-end development of a next-gen Self-Checkout (SCO) system, overseeing all technical deliverables and mentoring two contractors.",
+        "Ensured adoption of core Software Engineering principles including creation of Technical Design Documents, API Documentation, Low-Level Design (LLD), and Sequence Diagrams.",
+        "Designed and implemented high-performance Java and Python modules deployed on Linux-based SCO hardware using Tanium for configuration and deployment.",
+        "Collaborated with hardware engineering and vendor teams to integrate custom peripherals and improve system reliability.",
+        "Identified performance bottlenecks in vendor APIs; proposed and implemented an asynchronous command processing mechanism, reducing execution time from 30 seconds to a few milliseconds.",
+        "Automated SOAK testing as part of shift-left strategy enabling early detection of stability issues.",
+        "Utilized ActiveMQ (AMQ) for decoupled command dispatching and event handling, ensuring scalable and fault-tolerant message processing."
+      ]
+    },
+    {
+      "company": "Walmart Global Tech",
+      "title": "Senior Software Engineer",
+      "duration": "May 2022 - Oct 2024",
+      "location": "Bentonville, AR",
+      "responsibilities": [
+        "Led a critical Java-based project on Linux OS, reduced self-checkout time by 30%.",
+        "Improved Device Availability by nearly 5% through an automated scanner fix in python.",
+        "Modularized device functionality by segregating device controllers using JPOS standards (open, close, claim, initialize), enhancing scalability and maintainability.",
+        "Delivered device health metrics via OpenTelemetry and MMS, improving system monitoring and scaling operations efficiently.",
+        "Built and optimized BigQuery SQL queries, enabling detailed RCA for critical failures.",
+        "Deployed software bundle across 5,000+ stores using Tanium, ensuring seamless large-scale rollouts.",
+        "Utilized Docker & Docker-Registry for deploying POS application to self-checkout systems.",
+        "Schedule based L3 on-call support ensuring POS system health in production."
+      ]
+    },
+    {
+      "company": "Walmart Global Tech",
+      "title": "Software Engineer",
+      "duration": "May 2019 - May 2022",
+      "location": "Bentonville, AR",
+      "responsibilities": [
+        "Automated POS configs using Bash/Python; enabling one-click production deployment.",
+        "Improved checkout performance by optimizing transaction algorithms and reducing processing delays.",
+        "Built E-2-E Automation Test Suite using Selenium, cutting manual QA effort by 95%.",
+        "Contributed to CI/CD enablement by developing the Device Validation Tool and automating POS testing.",
+        "Built UI components in ReactJS on a Linux-based stack (CentOS/Ubuntu)."
+      ]
+    },
+    {
+      "company": "Tata Consultancy Services",
+      "title": "Associate Consultant",
+      "duration": "Jan 2012 - Apr 2019",
+      "location": "El Segundo, CA",
+      "responsibilities": [
+        "Built reusable automation frameworks and internal tools reducing testing time by 40%.",
+        "Managed a 9-member offshore team and delivered key IT solutions for clients like State Farm, USAA, and DaVita."
+      ]
+    }
+  ],
+  "certifications": "AWS Certified Cloud Practitioner",
+  "authorization": "Permanent Resident (Green Card) \u2013 No Sponsorship Required",
+  "education": [
+    {
+      "degree": "Bachelor of Science: Information Technology",
+      "date": "Jul 2011",
+      "school": "Shri Shankaracharya College of Engineering & Tech",
+      "location": "India"
+    }
+  ]
+}

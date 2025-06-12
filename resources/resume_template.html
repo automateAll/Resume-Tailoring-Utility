@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ name }}</title>
+    <style>
+        body {
+            font-family: 'Century Gothic', 'Arial', sans-serif;
+            font-size: 10pt;
+            color: #000;
+            margin: 30px;
+            line-height: 1.5;
+        }
+
+        h1, h2 {
+            border-bottom: 1px solid #aaa;
+            color: #5C2E2E;
+        }
+
+        .contact, .skills, .section {
+            margin-bottom: 20px;
+        }
+
+        .contact p, .section p, .skills ul {
+            margin: 4px 0;
+        }
+
+        .skills ul {
+            columns: 2;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section-title {
+            color: #5C2E2E; /* Adjust this if you want it darker/lighter */
+            font-weight: bold;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-size: 10pt;
+            margin-bottom: 2px;
+        }
+
+        .job-title {
+            color: #5C2E2E;
+            font-weight: bold;
+            font-family: 'Century Gothic', sans-serif;
+            font-size: 11px;
+        }
+
+        .job-date {
+            font-style: italic;
+            color: #5C2E2E;
+            white-space: nowrap;
+            font-family: 'Century Gothic', sans-serif;
+        }
+
+        .project-title {
+            font-weight: bold;
+            font-size: 11px;
+        }
+
+        .tech-stack {
+            font-style: italic;
+            font-weight: bold;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+<h1>{{ name }}</h1>
+
+<div class="contact">
+    <p>{{ contact.address }} | {{ contact.phone }} | {{ contact.email }}</p>
+    <p><a href="{{ contact.linkedin }}">LinkedIn</a> |
+        <a href="{{ contact.github }}">GitHub</a> |
+        <a href="{{ contact.leetcode }}">LeetCode</a></p>
+</div>
+
+<div class="section">
+    <div class="section-title">Professional Summary</div>
+    <p>{{ summary }}</p>
+</div>
+
+<div class="section">
+    <div class="section-title">Technical Skills</div>
+    {% for category, items in skills.items() %}
+    <p><strong>{{ category }}:</strong> {{ ', '.join(items) }}</p>
+    {% endfor %}
+</div>
+
+<div class="section">
+    <div class="section-title">Projects</div>
+    {% for project in projects %}
+    <p class="project-title">{{ project.title }} – {{ project.date }}</p>
+    <p>{{ project.description }}</p>
+    <p class="tech-stack">Tech Stack: {{ ', '.join(project.tech_stack) }}</p>
+    {% endfor %}
+</div>
+
+<div class="section">
+    <div class="section-title">Work Experience</div>
+    {% for job in experience %}
+    <div class="job-header">
+        <div class="job-title">{{ job.title }} @ {{ job.company }}</div>
+        <div class="job-date">{{ job.duration }} | {{ job.location }}</div>
+    </div>
+    <ul>
+        {% for item in job.responsibilities %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</div>
+
+<div class="section">
+    <div class="section-title">Education</div>
+    {% for edu in education %}
+    <p><strong>{{ edu.degree }}</strong> – {{ edu.date }}<br>
+        {{ edu.school }}, {{ edu.location }}</p>
+    {% endfor %}
+</div>
+
+<div class="section">
+    <p><strong>Authorization:</strong> {{ authorization }}</p>
+</div>
+
+</body>
+</html>

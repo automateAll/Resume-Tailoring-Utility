@@ -1,0 +1,29 @@
+Position Title: Java Developer
+
+Location: Remote
+
+Position Type: Full Time
+
+
+
+Job Description:
+• Experience with modern libraries and tooling
+• Significant Java programming skills and data structures
+• Significant Microservices architecture and development skills
+• Significant knowledge of SQL Database and NoSQL Databases ( Oracle, Postgres, Cassandra )
+• Significant experience in Messaging architectures & development- Kafka or equivalent
+• Proven Experience in building RESTful APIs and a deep understanding of REST principles
+• Proven Experience working with Docker or similar technologies, GIT, CI/CD and writing unit/integration tests
+• Strong analytical problem-solving skills and excellent written and verbal communication skills
+• Self-starter with strong initiative, quality deliverable and ability to work under pressure
+• Business-minded approach to time, costs, and deadlines
+• Demonstrated ability to work well within a team environment
+ 
+Key Responsibilities
+
+• Develop backend eCommerce web and Merchandizing applications in cloud platform technologies
+• Collaborate with designers & product managers to iterate on the design & implementation of our product
+• Work with Engineers from the full stack to build and ship features
+• Identify and uphold engineering best practices
+• Monitor performance, watch for traffic drops related to usability problems & rectify the issues
+• Review app and feature code, and plan future API upgrades with the development team
